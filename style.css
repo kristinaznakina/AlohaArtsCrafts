@@ -1,0 +1,111 @@
+header{
+    height: 35vh;
+    width: 100%;
+    background-image: url(assets/mainphoto1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 35px;
+}
+header img{
+    width: 30vh;
+    position: absolute;
+    bottom: 0;
+}
+nav{
+    display: flex;
+    padding: 2px 2px;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:rgb(6, 175, 175);
+}
+.nav-links{
+    align-items: center;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(249, 245, 245);
+    text-decoration: none;
+    font-size: 3vh;
+    margin: 45px;
+}
+.nav-links ul li a:hover{
+    color: antiquewhite;
+    background-color: rgb(77, 119, 99);
+    transition: 0.5s;
+    border-radius: 30%;
+}
+
+figure{
+    margin: 0;
+}
+.image figcaption {
+    font-size: .75em;
+    margin-top: .5em;
+    text-align: center;
+}
+.rounded-image img {
+    display: block;
+    width: 38vh;
+    height: 50vh;
+    margin-top: 5vh;
+    
+}
+.bold-image img {
+    display: block;
+    width: 38vh;
+    height: 50vh;
+    margin-top: 5vh;
+
+}
+.welcome{
+    margin-top: 5vh;
+}
+.welcome h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+.welcome p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.separator{
+    height: 100px;
+}
+
+footer {
+    background-color: rgb(151, 211, 211);
+    font-size: 20px;
+    margin-top: 5vh;
+    
+}
+footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
