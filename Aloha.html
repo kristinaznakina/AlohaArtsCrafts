@@ -5,21 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aloha</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="">
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <header class="mainphoto">
-                    <header>
-                         <a href="Aloha.html"><img src="assets/alohalogo.png"></a>
-                    </header>
+                    <a href="Aloha.html"><img src="assets/alohalogo.png"></a>
                 </header>
                 <nav>
                      <div class="nav-links">
@@ -42,8 +41,9 @@
         <main>
             <div class="row">
                 <div class="col-4">
-                    <figure class="image rounded-image">
-                        <img src="assets/kamen.webp">
+                    <figure class="image bold-image">
+                        <div class="cover-image" style="background-image: url(assets/kamen.webp)"></div>
+                        <!-- <img src="assets/kamen.webp"> -->
                         <figcaption>Lorem ipsum dolor sit.</figcaption>
                     </figure>
                 </div>
@@ -55,7 +55,8 @@
                 </div>
                 <div class="col-4">
                     <figure class="image bold-image">
-                        <img src="assets/image 2.jpeg">
+                        <div class="cover-image" style="background-image: url(assets/image-2.jpeg)"></div>
+                        <!-- <img src="assets/image 2.jpeg"> -->
                         <figcaption>Lorem ipsum dolor sit amet consectetur.</figcaption>
                     </figure>
                 </div>
@@ -63,9 +64,8 @@
         </main>
     </div>
 
-    <div class="separator">
-        
-    </div>
+    <div class="separator"></div>
+
     <footer>
         <div class="container">
             <div class="row">

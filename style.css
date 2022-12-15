@@ -1,11 +1,11 @@
 header{
-    height: 35vh;
-    width: 100%;
     background-image: url(assets/mainphoto1.jpg);
     background-position: center;
     background-size: cover;
+    height: 35vh;
     position: relative;
     margin-bottom: 35px;
+    width: 100%;
 }
 header img{
     width: 30vh;
@@ -50,17 +50,9 @@ figure{
     margin-top: .5em;
     text-align: center;
 }
-.rounded-image img {
-    display: block;
-    width: 38vh;
-    height: 50vh;
-    margin-top: 5vh;
-    
-}
 .bold-image img {
     display: block;
-    width: 38vh;
-    height: 50vh;
+    width: 100%;
     margin-top: 5vh;
 
 }
@@ -109,3 +101,12 @@ footer .fa {
   .fa-twitter {
     color: white;
   }
+
+
+.cover-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150%;
+    width: 100%;
+}
