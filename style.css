@@ -2,7 +2,7 @@ header{
     background-image: url(assets/mainphoto1.jpg);
     background-position: center;
     background-size: cover;
-    height: 35vh;
+    height: 200px;
     position: relative;
     margin-bottom: 35px;
     width: 100%;
@@ -57,7 +57,7 @@ figure{
 
 }
 .welcome{
-    margin-top: 5vh;
+    margin-top: 150px;
 }
 .welcome h2{
     text-align: center;
@@ -109,4 +109,54 @@ footer .fa {
     background-size: cover;
     padding-bottom: 150%;
     width: 100%;
+    margin-top: 100px;
+}
+
+.cover-image2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-bottom: 150%;
+
+}
+.contact-info{
+    align-items: center;
+}
+.contact-info h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact-info p{
+    text-align: center;
+    font-size: 24px;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 25px;
+
+}
+.button{
+    background-color: rgb(151, 211, 211);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+    
+}
+.button:hover{
+    color: antiquewhite;
+    background-color: rgb(77, 119, 99);
+    transition: 1s ease-out;
+    
 }
