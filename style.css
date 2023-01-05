@@ -36,9 +36,12 @@ nav{
 }
 .nav-links ul li a:hover{
     color: antiquewhite;
-    background-color: rgb(77, 119, 99);
-    transition: 0.5s;
-    border-radius: 30%;
+    background-color: #3B5998;
+    transition: 1.5s ease-out;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
 }
 
 figure{
@@ -78,26 +81,30 @@ footer {
     margin-top: 5vh;
     
 }
+footer h5{
+    padding-top: 20px;
+}
 footer .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    
   }
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
   }
-  .fa-facebook {
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-top: 40px;
+  }
+.fa-instagram {
     background: #3B5998;
     color: white;
   }
-  .fa-instagram {
+.fa-twitter {
     background: #3B5998;
-    color: white;
-  }
-  .fa-twitter {
     color: white;
   }
 
@@ -148,14 +155,17 @@ footer .fa {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    margin: 4px 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 50px;
+    margin-bottom: 5px;
     cursor: pointer;
     border-radius: 10%;
     
 }
 .button:hover{
     color: antiquewhite;
-    background-color: rgb(77, 119, 99);
+    background-color:  #3B5998;
     transition: 1s ease-out;
     
 }
@@ -175,4 +185,18 @@ footer .fa {
     padding-top: 100px;
     padding-bottom: 50px;
    
+}
+.faq{
+    align-items: center;
+}
+.faq h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.faq p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 2.0;
 }
